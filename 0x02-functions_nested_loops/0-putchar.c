@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,9 +7,9 @@
 
 int main(void)
 {
-	char *sh = "Holberton";
+	char c[] = "_putchar";
 
-	_putchar('\n');
+	_putchar(c);
 
 	return (0);
 }
