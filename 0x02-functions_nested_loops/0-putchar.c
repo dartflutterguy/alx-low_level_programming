@@ -2,6 +2,9 @@
 
 /**
 * main - a program that prints _putchar, followed by a new line
+* The putchar() function is used to write a
+* single character to the standard output stream,
+* it writes a single character to the standard output stream, stdout
 * Return: 0
 */
 
