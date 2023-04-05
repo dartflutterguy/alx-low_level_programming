@@ -10,7 +10,7 @@ size_t print_listint(const listint_t *h)
 {
 size_t item = 0;
 
-for (;h != NULL;)
+for (; h != NULL; )
 {
 printf("%d\n", h->n);
 h = h->next;
