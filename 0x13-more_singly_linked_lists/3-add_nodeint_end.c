@@ -25,7 +25,7 @@ if (*head == NULL)
 }
 else
 {
-while (temp->next != NULL)
+for (; temp->next != NULL; )
 {
 temp = temp->next;
 }
