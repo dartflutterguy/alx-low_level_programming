@@ -7,7 +7,7 @@
 int  get_endianness(void)
 {
 	int fig = 1;
-	
+
 	if (*(char *) &fig == 1)
 		return (1);
 	else
